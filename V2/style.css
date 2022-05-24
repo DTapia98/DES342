@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  .images {
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  span {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: red;
+  }
+  
+  img {
+    height: 80vh;
+  }
+  
+  .center {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 50%;
+    width: 1px;
+    background-color: black;
+  }
+
+/* YearHeader */
+
+h2 {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 400px;
+    line-height: 471px;
+    text-align: right;
+    color: #DFC53E;
+    text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+    float: left;
+}
