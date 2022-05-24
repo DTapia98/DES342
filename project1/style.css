@@ -1,4 +1,3 @@
-
 main {
   width: 2000vw;
   height: 100vh;
@@ -44,10 +43,16 @@ h1 {
   font-weight: 400;
   font-size: 400px;
   text-align: left;
-  color: #DFC53E;
+  color: #dfc53e;
   text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
 }
-
+h2 {
+  font-size: 100px;
+}
+h3 {
+  font-size: 24px;
+  font-style: normal;
+}
 .year1 {
   position: absolute;
   top: 5%;
@@ -76,6 +81,22 @@ h1 {
   position: absolute;
   top: 5%;
   right: 35%;
+}
+
+.content-box {
+  background-color: #dfc53e;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  /*add shadow here */
+}
+.year1-header {
+  top: 5vh;
+  left: 5vh;
+}
+.year1-content {
+  bottom: 5vh;
+  left: 5vh;
 }
 
 .template1 {
@@ -191,7 +212,7 @@ h1 {
 }
 
 section:nth-child(even) {
-  background-color:aqua;
+  background-color: aqua;
 }
 section:nth-child(odd) {
   background-color: red;
