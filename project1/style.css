@@ -33,10 +33,6 @@ body {
   margin: 0;
 }
 
-.shadow {
-  text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
-}
-
 h1 {
   font-family: 'Italiana';
   font-style: normal;
@@ -48,10 +44,14 @@ h1 {
 }
 h2 {
   font-size: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-right: 10px;
 }
 h3 {
   font-size: 24px;
   font-style: normal;
+  margin: 10px;
 }
 .year1 {
   position: absolute;
@@ -83,12 +83,18 @@ h3 {
   right: 35%;
 }
 
+.template1 {
+  position: relative;
+  background-size: 65%;
+  background-position: 90%, 50%;
+}
+
 .content-box {
   background-color: #dfc53e;
   padding: 10px;
   display: inline-block;
   position: absolute;
-  /*add shadow here */
+  filter: drop-shadow(25px 25px 10px rgba(0, 0, 0, 0.25));
 }
 .year1-header {
   top: 5vh;
@@ -97,12 +103,6 @@ h3 {
 .year1-content {
   bottom: 5vh;
   left: 5vh;
-}
-
-.template1 {
-  position: relative;
-  background-size: 65%;
-  background-position: 90%, 50%;
 }
 
 .template2 {
