@@ -6,7 +6,7 @@ main {
 }
 
 section {
-  width: 100vw;
+  width: 120vw;
   height: 100vh;
   flex: 1;
   background-color: #000;
@@ -216,4 +216,16 @@ section:nth-child(even) {
 }
 section:nth-child(odd) {
   background-color: red;
+}
+
+.template3 .year1938-header {
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+}
+.template3 .year1938-content {
+  position: absolute;
+  bottom: 5vh;
+  left: 5vh;
+  width: 60vh;
 }
