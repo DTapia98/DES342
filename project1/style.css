@@ -1,5 +1,5 @@
 main {
-  width: 2000vw;
+  width: 2110vw;
   height: 100vh;
   display: flex;
   background-color: black;
@@ -37,7 +37,7 @@ h1 {
   font-family: 'Italiana';
   font-style: normal;
   font-weight: 400;
-  font-size: 400px;
+  font-size: 300px;
   text-align: left;
   color: #dfc53e;
   text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
@@ -55,26 +55,26 @@ h3 {
 }
 .year1 {
   position: absolute;
-  top: 5%;
-  right: 35%;
+  top: 25%;
+  right: 56%;
 }
 
 .year2 {
   position: absolute;
-  top: -25%;
-  right: 7%;
+  top: -20%;
+  right: 10%;
 }
 
 .year3 {
   position: absolute;
-  top: 0%;
-  right: 7%;
+  top: 20%;
+  right: 20%;
 }
 
 .year4 {
   position: absolute;
-  top: -25%;
-  right: 40%;
+  top: -20%;
+  left: 5%;
 }
 
 .year5 {
@@ -111,17 +111,69 @@ h3 {
   background-position: 10%, 10%;
 }
 
+.content-box2 {
+  background-color: #dfc53e;
+  width: 40%;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  filter: drop-shadow(25px 25px 10px rgba(0, 0, 0, 0.25));
+}
+.year2-header {
+  top: 60vh;
+  left: 5vh;
+}
+.year2-content {
+  bottom: 25vh;
+  left: 98vh;
+}
+
 .template3 {
   position: relative;
   background-size: 65%;
-  background-position: 40%, 10%;
+  background-position: 40%, -20%;
+}
+
+.content-box3 {
+  background-color: #dfc53e;
+  width: 40%;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  filter: drop-shadow(25px 25px 10px rgba(0, 0, 0, 0.25));
+}
+.year3-header {
+  top: 65vh;
+  left: 22vh;
+}
+.year3-content {
+  bottom: 75vh;
+  left: 85vh;
 }
 
 .template4 {
   position: relative;
-  background-size: 65%;
+  background-size: 60%;
   background-position: 40%, 10%;
 }
+
+.content-box4 {
+  background-color: #dfc53e;
+  width: 35%;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  filter: drop-shadow(25px 25px 10px rgba(0, 0, 0, 0.25));
+}
+.year4-header {
+  bottom: 20vh;
+  left: 20vh;
+}
+.year4-content {
+  bottom: 15vh;
+  right: 20vh;
+}
+
 
 .template5 {
   position: relative;
@@ -146,18 +198,12 @@ h3 {
 }
 #p1934 {
   background-image: url('finalpics/wc1934italy-italy.png');
-  background-size: 60%;
-  background-position: 10%, 10%;
 }
 #p1938 {
   background-image: url('finalpics/wc1938france-italy.png');
-  background-size: 60%;
-  background-position: 10%, 10%;
 }
 #p1950 {
   background-image: url('finalpics/wc1950brazil-uruguay.png');
-  background-size: 60%;
-  background-position: 10%, 10%;
 }
 #p1954 {
   background-image: url('finalpics/wc1954switzerland-westgermany.png');
