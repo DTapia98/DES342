@@ -318,19 +318,19 @@ h3 {
   height:80px;
   width:80px;
   position: absolute;
-  bottom:20vh;
-  right:20vw;
+  bottom:10vh;
+  left:12vw;
   transition: all 800ms ease-in;
 }
 .hover-circle .content {
   opacity:0;
   transition: all 2s 1s;
-  padding:0 16px;
+  padding: 0 10px;
 }
 .content.show {opacity:1;}
 .hover-circle.content-box {
-  width:300px;
-  height:80px;
+  width: 500px;
+  height: 80px;
   border-radius: 0;
 }
 
