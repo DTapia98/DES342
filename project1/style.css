@@ -304,6 +304,36 @@ h3 {
   background-image: url('finalpics/wc2018russia-france.png');
 }
 
+.ball {
+  transition:800ms;
+  height:80px;
+  width:80px;
+  position: absolute;
+  top: 0;
+  left:0;
+}
+.hover-circle {
+  border-radius: 50%;
+  background-color: #dfc53e;
+  height:80px;
+  width:80px;
+  position: absolute;
+  bottom:20vh;
+  right:20vw;
+  transition: all 800ms ease-in;
+}
+.hover-circle .content {
+  opacity:0;
+  transition: all 2s 1s;
+  padding:0 16px;
+}
+.content.show {opacity:1;}
+.hover-circle.content-box {
+  width:300px;
+  height:80px;
+  border-radius: 0;
+}
+
 /* section:nth-child(even) {
   background-color: aqua;
 }

@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DTapia World Cup</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main>
+    <main>      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
       <section id="p1930" class="template1">
         <div class="content-box year1-header">
           <p>Host:</p>
@@ -16,7 +21,11 @@
           <p>Winner:</p>
           <h2>Uruguay</h2>
         </div>
-        <div class="shadow content-box year1-content">Uruguay wins the first edition of the World Cup, defeating Argentina 4-2.</div>
+        <div class="hover-circle">
+          <img class="ball" src="FIFABall.svg">
+          <div class="content"><p>Uruguay wins the first edition of the World Cup, defeating Argentina 4-2. Thirteen teams participated in the tournament by invitation.</p></div>
+        <!-- <div class="shadow content-box2 year1-content">Uruguay wins the first edition of the World Cup, defeating Argentina 4-2. Thirteen teams participated in the tournament by invitation.</div> -->
+        </div>
         <h1 class="year1">1930</h1>
       </section>
       <section id="p1934" class="template2">
@@ -86,7 +95,7 @@
           <p>Winner:</p>
           <h2>England</h2>
         </div>
-        <div class="shadow content-box year1-content">test</div>
+        <div class="shadow content-box2 year1-content">The home of modern football, England finally hosted the World Cup in 1966 and went on to win the tournament.</div>
         <h1 class="year1">1966</h1>
       </section>
       <section id="p1970" class="template2">
@@ -220,5 +229,18 @@
         <h1 class="year4">2018</h1>
       </section>
     </main>
+    <script>
+    $('.hover-circle').mouseenter(function(){
+    $('.ball').css('opacity', '0')
+    $('.hover-circle').addClass('content-box')
+    $('.hover-circle .content').addClass('show')
+})
+$('.hover-circle').mouseleave(function(){
+    $('.hover-circle .content').css('transition-delay','0')
+    $('.hover-circle').removeClass('content-box')
+    $('.hover-circle .content').removeClass('show')
+    $('.ball').css('opacity', '1')
+})
+    </script>
   </body>
 </html>
