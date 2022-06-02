@@ -56,7 +56,7 @@ h3 {
 .year1 {
   position: absolute;
   top: 25%;
-  right: 56%;
+  right: 58%;
 }
 
 .year2 {
@@ -97,7 +97,7 @@ h3 {
 }
 .year1-header {
   top: 5vh;
-  left: 5vh;
+  left: 25vh;
 }
 .year1-content {
   bottom: 5vh;
